@@ -1,0 +1,6 @@
+services:
+  flaskapp:
+    build: .
+    container_name: bai9_flaskapp
+    ports:
+      - "5000:5000"
